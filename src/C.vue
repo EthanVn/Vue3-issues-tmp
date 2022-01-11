@@ -3,7 +3,7 @@
 <script setup lang="ts">
 import { defineComponent, onUnmounted } from 'vue'
 
-onUnmounted(() => alert('A-onUnmounted'))
+onUnmounted(() => alert('C-onUnmounted'))
 </script>
 
 <script lang="ts">
